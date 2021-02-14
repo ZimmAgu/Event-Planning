@@ -1,0 +1,11 @@
+body {
+    font-size: 24px;
+}
+
+td {
+    padding: 5px 20px 5px 20px;
+}
+
+td.er {
+    font-size: 16px;
+}
