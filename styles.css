@@ -2,10 +2,34 @@ body {
     font-size: 24px;
 }
 
+table {
+    padding: 0px 0px 40px 0px;
+    border-collapse: collapse;
+}
+
+
+
 td {
     padding: 5px 20px 5px 20px;
+    border-style: solid;
 }
 
 td.er {
-    font-size: 16px;
+    font-size: 18px;
+}
+
+
+form {
+    padding: 25px 0px 0px 0px;
+}
+
+
+fieldset {
+    width: 40%;
+}
+
+
+
+input[type="submit"] {
+    background-color: red;
 }

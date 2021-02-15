@@ -7,6 +7,8 @@
         rel="stylesheet" />
     </head>
 
+
+
     <body>
         <h1>Highest Paying Jobs by Industry</h1>
 
@@ -25,6 +27,14 @@
 
 
 
+
+
+
+
+
+
+
+
         <table>
             <tr>
                 <td>Industry</td>
@@ -37,14 +47,21 @@
                 <td>Healthcare</td>
                 <td>Physician</td>
                 <td>$237,000</td>
-                <td class="er">4 years</td>
+                <td class="er">
+                    4 years of college <br />
+                    4 years of medical school <br />
+                    4 years of residency
+                </td>
             </tr>
 
             <tr>
                 <td>Technology</td>
                 <td>Software Developer</td>
                 <td>$161,290</td>
-                <td class="er"></td>
+                <td class="er">
+                    4 years of college <br />
+                    or equivalent experience
+                </td>
             </tr>
         
 
@@ -52,15 +69,58 @@
                 <td>Law</td>
                 <td>Lawyer</td>
                 <td>$145,000</td>
-                <td class="er"></td>
+                <td class="er">
+                    4 years of college <br />
+                    3 years of law school
+                </td>
             </tr>
 
             <tr>
                 <td>Finance</td>
-                <td>Financial Manager</td>
-                <td>$129,890</td>
-                <td class="er"></td>
+                <td>Stock Broker </td>
+                <td>$136,264</td>
+                <td class="er">
+                    4 years of college
+                </td>
             </tr>
         </table>
+
+
+        <form action="http://www.example.com/subscribe.php" method="get">
+            <fieldset>
+                <legend>Register your interest</legend>
+                
+                <p>
+                    <label>Name:</label>
+                    <input type="text" name="name" size="15" maxlength="30" />
+                    
+                    <br />
+
+                    <label>Email:</label>
+                    <input type="email" name="email" />
+                </p>
+
+                <p>
+                    <label>Which field are you most interested in?</label>
+
+                    <select name="devices">
+                        <option value="healthcare">Healtchare</option>
+                        <option value="tech">Technology</option>
+                        <option value="law">Law</option>
+                        <option value="ficance">Finance</option>
+                    </select>
+                </p>
+
+                <p>
+                    <input type="submit" name="submit" value="Submit" />
+                </p>
+
+            </fieldset>
+        </form>
+
+
+
+
+
     </body>
 </html>
